@@ -1,6 +1,6 @@
 $margin: 5px;
 
-.student {
+.teacher {
   background: #9da0a4;
   width: 300px;
   min-height: 10px;
@@ -15,13 +15,13 @@ $margin: 5px;
 
   &__age {
     display: inline;
-    background: black;
+    background: red;
     padding: $margin;
   }
 
   &__adres {
     display: inline;
-    background: black;
+    background: red;
     padding: $margin;
   }
 

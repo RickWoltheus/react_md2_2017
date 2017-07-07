@@ -1,0 +1,67 @@
+/*
+ | ITCSS STRUCTURE: naming convention _<layer>.<partial>.scss
+ */
+/*
+ | SETTINGS: base font size, colour palettes
+ */
+body {
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/*
+ | TOOLS: mixins and functions
+ */
+/*
+ | GENERIC: CSS resets, normalize
+ */
+/*
+ | ELEMENTS: Base styling for unclassed HTML elements (h1, anchor, etc.)
+ */
+/*
+ | OBJECTS: NON cosmetic objects
+ */
+/*
+ | COMPONENTS
+ */
+.student {
+  background: #9da0a4;
+  width: 300px;
+  min-height: 10px;
+  margin-bottom: 5px;
+  color: white;
+  padding: 5px; }
+  .student__name {
+    display: inline;
+    margin-right: 5px; }
+  .student__age {
+    display: inline;
+    background: black;
+    padding: 5px; }
+  .student__adres {
+    display: inline;
+    background: black;
+    padding: 5px; }
+
+.teacher {
+  background: #9da0a4;
+  width: 300px;
+  min-height: 10px;
+  margin-bottom: 5px;
+  color: white;
+  padding: 5px; }
+  .teacher__name {
+    display: inline;
+    margin-right: 5px; }
+  .teacher__age {
+    display: inline;
+    background: red;
+    padding: 5px; }
+  .teacher__adres {
+    display: inline;
+    background: red;
+    padding: 5px; }
+
+/*
+ | TRUMPS: utility and helper classes, hacks and overrides
+ */
+
+/*# sourceMappingURL=main.css.map */

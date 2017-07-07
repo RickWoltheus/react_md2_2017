@@ -5,7 +5,7 @@ import React from 'react';
  * @param props
  * @returns {XML}
  */
-class Student extends React.Component {
+class Teacher extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,11 +13,11 @@ class Student extends React.Component {
 
     render() {
         return (
-            <div className="student">
-                <div className="student__name">
-                    {this.props.name + "tje"}
+            <div className="teacher">
+                <div className="teacher__name">
+                    {this.props.name}
                 </div>
-                <div className="student__age">
+                <div className="teacher__age">
                     {this.props.age}
                 </div>
 
@@ -29,4 +29,4 @@ class Student extends React.Component {
 
 }
 
-export default Student;
+export default Teacher;
